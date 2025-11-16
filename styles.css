@@ -1,0 +1,124 @@
+body {
+margin: 0;
+background-color: #151b27;
+color: #c8d5e3;
+font-family: Arial, sans-serif;
+}
+
+.navbar {
+display: flex;
+justify-content: space-between;
+padding: 15px 40px;
+background-color: #0a0a15;
+border-bottom: 1px solid #333;
+}
+
+.logo {
+color: #e0952c;
+}
+
+.nav-links li {
+display: inline;
+margin-left: 20px;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #c8d5e3;
+}
+
+.hero {
+text-align: center;
+padding: 40px 20px;
+background-color: #10141c;
+background: linear-gradient(to bottom, #eac950, #151b27);
+}
+
+.pt {
+    text-align: center;
+    padding : 40px;
+    color: #c8c8c8;
+    margin: 20px;
+
+
+}
+
+.movie-grid {
+display: flex;
+justify-content: center;
+gap: 20px;
+padding: 40px;
+}
+
+.movie-card img {
+width: 200px;
+border-radius: 10px;
+}
+
+.movie-info {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 10px;
+border line-height: width: 300px;
+gap: 30px;
+padding: 40px;;
+}
+
+
+.poster {
+width: 200px;
+height: 300px;
+}
+
+.diary .entry {
+    align items: center;
+background-color: #111;
+width: 1000px;
+height: auto;
+padding: 20px;
+margin: 20px;
+border-radius: 10px;
+}
+
+.ptr {
+    align-items: center;
+width: 200px;
+height: 300px;
+border-radius: 10px;
+margin: 20px 0;
+padding : 50px;
+}
+
+.profile {
+text-align: center;
+padding: 40px;
+}
+
+.avatar {
+width: 150px;
+border-radius: 50%;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(540px, 1fr));
+  gap: 30px;
+  justify-items: center;   
+  align-items: center;     
+  padding: 10px;
+  text-align: center;    
+
+.movie-grid iframe {
+  width: 100%;
+  max-width: 540px;       
+  border-radius: 10px;
+}
+
+  .details {
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+  }      
+}
+
